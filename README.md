@@ -23,12 +23,12 @@
 2. Copy pam_captcha.so to your pam module dir.
 
     - FreeBSD: /usr/lib
-    - Ubuntu: /lib/security
+    - Arch: /usr/lib/security
     - Others: Find other files named `pam_*.so`
 
 ### On all systems
 
-1. Configuration should be setup in your pam config for whatever service you want. It needs to go at the top of your pam auth stack (first entry?):
+Configuration should be setup in your pam config for whatever service you want. It needs to go at the top of your pam auth stack (first entry?):
 
     auth       requisite     pam_captcha.so    [options]
 
