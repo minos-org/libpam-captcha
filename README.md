@@ -8,6 +8,16 @@
 
 ## Quick start
 
+### On Ubuntu
+
+   ```
+   $ sudo add-apt-repository ppa:chilicuil/sucklesstools
+   $ sudo apt-get update
+   $ sudo apt-get install libpam-captcha
+   ```
+
+### On other Linux distributions + BSD
+
 1. Type `make`
 
 2. Copy pam_captcha.so to your pam module dir.
@@ -16,7 +26,9 @@
     - Ubuntu: /lib/security
     - Others: Find other files named `pam_*.so`
 
-3. Place this entry in your pam config for whatever service you want. It needs to go at the top of your pam auth stack (first entry?):
+### On all systems
+
+1. Configuration should be setup in your pam config for whatever service you want. It needs to go at the top of your pam auth stack (first entry?):
 
     auth       requisite     pam_captcha.so    [options]
 
