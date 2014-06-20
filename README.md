@@ -1,6 +1,6 @@
 ## About
 
-[pam_captcha](https://github.com/chilicuil/pam_captcha/) is a visual text-based CAPTCHA challenge module for PAM. This is a custom version, refear to [semicomplete](http://www.semicomplete.com/projects/pam_captcha) for the original one.
+[libpam-captcha](https://github.com/minos-org/libpam-captcha) is a visual text-based CAPTCHA challenge module for PAM. This is a custom version, refear to [semicomplete](http://www.semicomplete.com/projects/pam_captcha) for the original one.
 
 <p align="center">
 <img src="http://javier.io/assets/img/pam_captcha.png" alt="pam-captcha"/>
