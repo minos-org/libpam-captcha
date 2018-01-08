@@ -26,6 +26,8 @@
 
 ### On other Linux distributions + BSD
 
+Red Hat Linux and its derivatives require pam-devel RPM package before compiling libpam-captcha.
+
 1. Type `make`
 
 2. Copy pam_captcha.so to your pam module dir.
